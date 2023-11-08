@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+  width: 100%;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  width: 60vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+
+}
+
+input[type="text"],
+input[type="number"],
+button {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container-buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+.reset {
+  background-color: rgb(121, 35, 35);
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+p {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
